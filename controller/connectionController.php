@@ -1,10 +1,10 @@
 <?php 
 
-	$host = "Localhost";
-	$db_name = "okcl";
-	$db_user = "root";
+	$host = "";
+	$db_name = "";
+	$db_user = "";
 	$db_password = "";
-	$base_url="http://localhost/okcl/";
+	$base_url="";
 	
 	$con = mysqli_connect($host, $db_user, $db_password, $db_name);  
     if(mysqli_connect_errno()) {  
